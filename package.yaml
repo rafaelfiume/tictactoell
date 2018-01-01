@@ -46,6 +46,10 @@ tests:
       - -with-rtsopts=-N
     dependencies:
       - tictactoell
+      - tasty
+      - tasty-auto
+      - tasty-quickcheck
+      - tasty-html
       - test-framework
       - test-framework-quickcheck2
       - QuickCheck

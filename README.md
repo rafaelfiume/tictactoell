@@ -29,3 +29,15 @@ It might be useful to have a look at how [lens tests its code](https://github.co
 Useful resources:
 
 * [QuickCheck: An Automatic Testing Tool for Haskell](http://www.cse.chalmers.se/~rjmh/QuickCheck/manual.html)
+### Tasty
+
+Use to run (and combine) different kinds of tests, like QuickCheck, HUnit and Hspec ones.
+
+Useful resources:
+
+* [tasty](https://hackage.haskell.org/package/tasty)
+* [tasty-auto](https://hackage.haskell.org/package/tasty-auto)
+
+In case it's desirable to generate HTML test report:
+
+* [tasty-html](https://github.com/feuerbach/tasty-html)
