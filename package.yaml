@@ -46,3 +46,6 @@ tests:
       - -with-rtsopts=-N
     dependencies:
       - tictactoell
+      - test-framework
+      - test-framework-quickcheck2
+      - QuickCheck
