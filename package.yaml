@@ -7,12 +7,12 @@ maintainer:          "rafael.fiume@yahoo.it"
 copyright:           "2018 Rafael Fiume"
 
 extra-source-files:
-- README.md
-- ChangeLog.md
+  - README.md
+  - ChangeLog.md
 
 # Metadata used when publishing your package
 synopsis:            A simple Tic-Tac-Toe console game implemented with Haskell
-# category:            Web
+category:            Game
 
 # To avoid duplicated efforts in documentation and dealing with the
 # complications of embedding Haddock markup inside cabal files, it is
@@ -20,7 +20,7 @@ synopsis:            A simple Tic-Tac-Toe console game implemented with Haskell
 description:         Please see the README on Github at <https://github.com/githubuser/tictactoell#readme>
 
 dependencies:
-- base >= 4.7 && < 5
+  - base >= 4.7 && < 5
 
 library:
   source-dirs: src

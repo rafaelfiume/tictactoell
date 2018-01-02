@@ -48,3 +48,9 @@ In case it's desirable to generate HTML test report:
 Useful resources:
 
 * [Hspec User's Manual](https://hspec.github.io/)
+
+## CI
+
+This project uses [Travis CI](https://travis-ci.org/) to build and run its tests.
+
+Check [this](https://docs.haskellstack.org/en/stable/travis_ci/) out for more information on how to configure a Travis build for Haskell projects (either a [simple](https://raw.githubusercontent.com/commercialhaskell/stack/stable/doc/travis-simple.yml) or more [complex](https://raw.githubusercontent.com/commercialhaskell/stack/stable/doc/travis-complex.yml) build).
