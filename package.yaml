@@ -38,7 +38,7 @@ executables:
 
 tests:
   tictactoell-test:
-    main:                Spec.hs
+    main:                Main.hs
     source-dirs:         test
     ghc-options:
       - -threaded
@@ -49,7 +49,7 @@ tests:
       - tasty
       - tasty-auto
       - tasty-quickcheck
+      - tasty-hspec
       - tasty-html
-      - test-framework
-      - test-framework-quickcheck2
       - QuickCheck
+      - hspec == 2.*
