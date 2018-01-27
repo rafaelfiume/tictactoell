@@ -1,4 +1,4 @@
-# tictactoell [![Build Status](https://travis-ci.org/rafaelfiume/tictactoell.svg?branch=master)](https://travis-ci.org/rafaelfiume/tictactoell) [![Apache 2.0 License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rafaelfiume/tictactoell/blob/master/LICENSE)
+# tictactoell [![Build Status](https://travis-ci.org/rafaelfiume/tictactoell.svg?branch=master)](https://travis-ci.org/rafaelfiume/tictactoell) [![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rafaelfiume/tictactoell/blob/master/LICENSE)
 
 A simple Tic-Tac-Toe console game implemented with Haskell.
 
@@ -62,10 +62,16 @@ Check [this](https://docs.haskellstack.org/en/stable/travis_ci/) out for more in
 
 ## Stuff
 
-### Cool Libraries
+Source Code & Libraries:
 
 * [Lens: Lenses, Folds, and Traversals](https://github.com/ekmett/lens)
+* [Lenses In Pictures](http://adit.io/posts/2013-07-22-lenses-in-pictures.html)
+* [Prelude for Haskell 2010](https://www.haskell.org/onlinereport/haskell2010/haskellch9.html#x16-1710009)
 
-### Package
+Package:
 
 * [Haskell Package Checklist](http://taylor.fausak.me/2016/12/05/haskell-package-checklist/)
+
+Tools:
+
+* [HLint](https://github.com/ndmitchell/hlint)
