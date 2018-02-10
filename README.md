@@ -7,7 +7,7 @@ A simple Tic-Tac-Toe console game implemented with Haskell.
 
 ### Stack
 
-    λ → stack build
+    λ → stack build [--ghc-options="-Wall -fforce-recomp"]
     λ → stack test
     λ → stack ghci
     λ → stack exec tictactoell-exe
