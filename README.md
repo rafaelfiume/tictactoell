@@ -3,7 +3,7 @@
 A simple Tic-Tac-Toe console game implemented with Haskell.
 
 
-# Basic Haskell
+## Basic Haskell
 
 ### Stack
 
@@ -17,13 +17,19 @@ Useful resources:
 * [Stack Install/Upgrade](https://docs.haskellstack.org/en/stable/install_and_upgrade/)
 * [Stack Tutorial](https://github.com/Originate/guide/blob/master/haskell/stack-tutorial.md)
 
-### About GHCI
-
-Examples of how to use GHCI when executing `stack ghci`:
-
-    Prelude> :load Main
+### GHCI
 
 More about GHCI [here](http://learnyouahaskell.com/starting-out).
+
+Useful command-line editing info [here](http://tiswww.case.edu/php/chet/readline/readline.html).
+
+#### GHCI commands
+
+    Prelude> :?
+    Prelude> :set prompt "ghci> "
+    ghci> :load Main
+    ghci> :module + Data.Ratio
+    ghci> :info (/=)
 
 ## Testing
 
