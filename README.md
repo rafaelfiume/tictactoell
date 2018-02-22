@@ -11,6 +11,7 @@ A simple Tic-Tac-Toe console game implemented with Haskell.
     λ → stack test
     λ → stack ghci
     λ → stack exec tictactoell-exe
+    λ → stack list-dependencies
 
 Useful resources:
 
@@ -67,6 +68,11 @@ This project uses [Travis CI](https://travis-ci.org/) to build and run its tests
 Check [this](https://docs.haskellstack.org/en/stable/travis_ci/) out for more information on how to configure a Travis build for Haskell projects (either a [simple](https://raw.githubusercontent.com/commercialhaskell/stack/stable/doc/travis-simple.yml) or more [complex](https://raw.githubusercontent.com/commercialhaskell/stack/stable/doc/travis-complex.yml) build).
 
 ## Stuff
+
+Docs & Articles
+
+* [Foldr Foldl Foldl'](https://wiki.haskell.org/Foldr_Foldl_Foldl%27) - It also explains short-circuiting a folding function.
+* [GHC User Guide - Warnings and sanity-checking](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/using-warnings.html)
 
 Source Code & Libraries:
 
